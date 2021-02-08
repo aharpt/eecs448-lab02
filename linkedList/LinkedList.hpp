@@ -115,6 +115,10 @@ bool LinkedList<T>::removeBack()
 		Fix this method
 	*/
 
+	if (!isEmpty()) {
+		isRemoved = true;
+	}
+
 	return(isRemoved);
 }
 
