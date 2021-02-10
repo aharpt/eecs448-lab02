@@ -117,7 +117,6 @@ bool LinkedList<T>::removeBack()
 	*/
 
 	if (!isEmpty()) {
-		secondintoLast = lastNode->getValue();
 		delete lastNode;
 		m_size--;
 		isRemoved = true;
